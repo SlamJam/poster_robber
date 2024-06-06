@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "poster-robber"
+version = "0.1.0"
+description = ""
+authors = ["Anton Shurpin <anton.shurpin@gmail.com>"]
+license = "Apache 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+pydantic = "^2.5.3"
+pandas = "^2.1.4"
+pyarrow = "^14.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
